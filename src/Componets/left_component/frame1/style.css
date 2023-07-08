@@ -1,0 +1,71 @@
+.left_f1_main{
+    position: relative;
+    /* background-color: blue; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.left_f1_main button{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: rgb(92, 156, 229);
+    font-size:25px ;
+}
+.slider_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 11%;
+}
+.c1{
+    width: 5px;
+    height: 5px;
+    background-color:rgb(157, 195, 239);
+    border-radius: 100%;
+}
+.r1{
+    width: 15px;
+    height: 5px;
+    background-color: white;
+    border-radius:50px;
+}
+.toogle_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 29%;
+    position: relative;
+    color: white;
+}
+.toggle_circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    left: -17px;
+    top:-9px;
+    z-index: 3;
+}
+.toggle_rect{
+    width: 35px;
+    height: 10px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 35px;
+  position: absolute;
+    top: -3px;
+    left: -17px;
+
+}
+.toogle{
+    position: relative;
+}
+.celsius{
+    font-size: small;
+}
+.fahrenheit{
+    font-size: small;
+    color: rgb(179, 209, 244);
+}

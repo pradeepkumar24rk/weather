@@ -1,0 +1,31 @@
+.left_f3_main{
+    position: absolute;
+    top: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    width: 300px;
+    height: 130px;
+    justify-content: space-between;
+    z-index: 2;
+}
+.left_f3_main input{
+    border: 0;
+    background-color: transparent;
+    color:rgb(157, 195, 239);
+    font-size: 40px;
+    cursor: pointer;
+}
+.left_f3_main input:hover{
+    color:white;
+}
+.temprature_no {
+    font-size: 60px;
+    color: white;
+}
+.weather{
+    color: white;
+}
+.weather img{
+    position: relative;
+    top: 4px;
+}

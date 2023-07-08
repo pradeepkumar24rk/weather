@@ -1,0 +1,33 @@
+.f2_main{
+    background-color:rgb(255, 255, 255);
+    width: 95%;
+    height: 180px;
+    padding: 20px;
+    border-radius:25px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f2_content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.f2_buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.f2_buttons .shade{
+    color: rgb(153, 153, 153);
+}
+.f2_buttons input{
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: 0;
+}
+
+

@@ -1,0 +1,31 @@
+.block_main{
+    background-color: white;
+    width:28%;
+    height: 120%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 25px;
+    box-sizing: border-box;
+}
+.block_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+.icon_block{
+    background-color: rgb(92, 156, 229);
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.block_graph{
+    margin-top: -8px;
+}

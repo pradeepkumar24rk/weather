@@ -1,0 +1,12 @@
+.container{
+    position: absolute;
+    font-family: 'Nunito';
+    top: 1%;
+    left: 1%;
+    background-color: rgb(92, 156, 229);
+    border-radius: 35px;
+    width: 98%;
+    height: 98%;
+    box-sizing: border-box;
+    /* margin: 1% 1%; */
+}

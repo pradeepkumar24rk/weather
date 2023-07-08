@@ -1,0 +1,21 @@
+.left_f2_main{
+    color: white;
+    /* background-color: black; */
+    position: absolute;
+    top: 80px ;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content p{
+    position: relative;
+    top: -12px;
+    font-size: small;
+}
+.space{
+    /* background-color: black; */
+    width: 20%;
+    height: 7px;
+}

@@ -1,0 +1,14 @@
+
+.left_block {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 30px 50px;
+}
+.building_pic {
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 35px;
+  height: 70%;
+}
+
+
